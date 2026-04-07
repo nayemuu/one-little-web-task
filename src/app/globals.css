@@ -3,24 +3,33 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #ed3c6a;
 }
 
 @theme inline {
+  --color-primary: var(--primary);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-dm: var(--font-dm-sans);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm), Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+@layer components {
+  .navbar {
+    box-shadow: 0px 4px 62px 0px #fac4d2a1 !important;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto px-[18px] lg:px-[100px];
+  }
 }

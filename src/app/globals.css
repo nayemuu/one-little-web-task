@@ -26,6 +26,19 @@ body {
   .navbar {
     box-shadow: 0px 4px 62px 0px #fac4d2a1 !important;
   }
+
+  .hero-section {
+    background-image: url(../assets//pages/Home/HeroSection/HeroSectionBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hero-section-content {
+    background-image: url(../assets//pages/Home/HeroSection/HeroSectionContentBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+  }
 }
 
 @layer utilities {

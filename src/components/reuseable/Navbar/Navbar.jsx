@@ -31,7 +31,7 @@ const navigationLinks = [
 import logo from "@/assets/components/Navbar/logo.png";
 import Image from "next/image";
 
-const arrowLeftSvg = (
+export const arrowLeftSvg = (
   <svg
     width={10}
     height={10}

@@ -14,7 +14,7 @@ import neavyBlueBall from "@/assets/pages/Home/HeroSection/neavyBlueBall.png";
 
 const HeroSection = () => {
   return (
-    <div className="hero-section min-h-[484px] xl:min-h-[584px] flex justify-center items-center relative">
+    <div className="hero-section min-h-[484px] xl:min-h-[584px] flex justify-center items-center relative border-b border-[#00000014]">
       <Image
         src={airbnbLogo}
         alt="airbnbLogo"

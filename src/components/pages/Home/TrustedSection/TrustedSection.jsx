@@ -46,10 +46,12 @@ const TrustedSection = () => {
         Trusted by leaders in 50+ industries
       </p>
 
-      <div className="flex gap-5 justify-between bg-[#F6F6F6] py-[23px] container">
-        {trustedPartners.map((patnar) => (
-          <Image src={patnar.logo} alt={patnar.title} />
-        ))}
+      <div className="bg-[#F6F6F6]">
+        <div className="flex gap-5 justify-between py-[23px] container">
+          {trustedPartners.map((patnar) => (
+            <Image src={patnar.logo} alt={patnar.title} />
+          ))}
+        </div>
       </div>
     </div>
   );

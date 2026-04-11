@@ -1,3 +1,4 @@
+import AirnbnAssistentPricingSection from "@/components/pages/Home/AirnbnAssistentPricingSection/AirnbnAssistentPricingSection";
 import HeroSection from "@/components/pages/Home/HeroSection/HeroSection";
 import OurServiceSection from "@/components/pages/Home/OurServiceSection/OurServiceSection";
 import TrustedSection from "@/components/pages/Home/TrustedSection/TrustedSection";
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <TrustedSection />
       <OurServiceSection />
+      <AirnbnAssistentPricingSection />
       <Footer />
     </div>
   );

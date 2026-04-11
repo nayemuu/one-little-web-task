@@ -19,7 +19,9 @@ const OurServiceCard = ({ card }) => {
         />
       </div>
       <div className="flex flex-col gap-[14px]">
-        <div className="text-[24px] leading-[26px] font-bold">{card.title}</div>
+        <div className="text-[24px] leading-[26px] font-bold max-w-[215px]">
+          {card.title}
+        </div>
         <div className="text-[14px] leading-[16px] font-medium">
           {card.description}
         </div>

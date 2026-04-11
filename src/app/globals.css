@@ -39,6 +39,11 @@ body {
     background-size: cover;
     padding: 40px;
   }
+
+  .our-service-section-card:hover {
+    box-shadow: 0px 4px 90.3px 0px #d7cdcf78;
+    border-color: transparent !important;
+  }
 }
 
 @layer utilities {

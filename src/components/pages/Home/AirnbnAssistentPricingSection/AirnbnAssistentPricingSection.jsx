@@ -172,6 +172,21 @@ const AirnbnAssistentPricingSection = () => {
           <PricingCard card={card} key={index} />
         ))}
       </div>
+
+      <div className="container flex flex-col gap-[24px] py-[84px]">
+        <ReuseableTitle className="">
+          Our<span className="text-primary">Tools</span>
+        </ReuseableTitle>
+
+        <div className="flex justify-center">
+          <div className="text-[14px] leading-[16px] font-medium max-w-[738px] text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

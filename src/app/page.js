@@ -1,4 +1,5 @@
 import AirnbnAssistentPricingSection from "@/components/pages/Home/AirnbnAssistentPricingSection/AirnbnAssistentPricingSection";
+import ChooseUsSection from "@/components/pages/Home/ChooseUsSection/ChooseUsSection";
 import FrequentlyAskedQuestionsSection from "@/components/pages/Home/FrequentlyAskedQuestionsSection/FrequentlyAskedQuestionsSection";
 import GettingStartedSection from "@/components/pages/Home/GettingStartedSection/GettingStartedSection";
 import HeroSection from "@/components/pages/Home/HeroSection/HeroSection";
@@ -18,6 +19,7 @@ export default function Home() {
       <AirnbnAssistentPricingSection />
       <PatnerSection />
       <GettingStartedSection />
+      <ChooseUsSection />
       <FrequentlyAskedQuestionsSection />
       <Footer />
     </div>

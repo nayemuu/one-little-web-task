@@ -45,6 +45,9 @@ const items = [
   },
 ];
 
+import frequentlyAskedQuestionsSectionLogo from "@/assets/pages/Home/FrequentlyAskedQuestionsSection/frequentlyAskedQuestionsSectionLogo.png";
+import Image from "next/image";
+
 const FrequentlyAskedQuestionsSection = () => {
   return (
     <div className="flex flex-col gap-5 mb-[70px]">
@@ -86,7 +89,14 @@ const FrequentlyAskedQuestionsSection = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="container bg-[#F9FAFB] py-[32px]">
+      <div className="container bg-[#F9FAFB] py-[32px] flex flex-col gap-[32px]">
+        <div className="flex justify-center">
+          <Image
+            src={frequentlyAskedQuestionsSectionLogo}
+            alt="frequentlyAskedQuestionsSectionLogo"
+            className="h-[56px] w-auto"
+          />
+        </div>
         <div className="flex flex-col gap-2">
           <div className="text-center text-[20px] leading-[22px] font-bold">
             Still have Questions?
@@ -95,6 +105,12 @@ const FrequentlyAskedQuestionsSection = () => {
           <div className="text-center text-[18px] leading-[20px] font-bold text-[#9C9C9C]">
             Can’t find the answer you’re looking for? Please chat to our
             friendly team.
+          </div>
+        </div>
+
+        <div className="flex justify-center">
+          <div className="bg-primary text-white text-[16px] leading-[20px] font-medium px-[18px] py-[10px] rounded-[5px] cursor-pointer flex items-center gap-[10px] text-nowrap z-2">
+            <span>Get in touch</span>
           </div>
         </div>
       </div>

@@ -49,7 +49,7 @@ const TrustedSection = () => {
       <div className="bg-[#F6F6F6]">
         <div className="flex gap-5 justify-between py-[23px] container">
           {trustedPartners.map((patnar) => (
-            <Image src={patnar.logo} alt={patnar.title} />
+            <Image src={patnar.logo} alt={patnar.title} key={patnar.title} />
           ))}
         </div>
       </div>
